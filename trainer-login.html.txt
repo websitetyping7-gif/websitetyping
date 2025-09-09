@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title> ”ÃÌ· œŒÊ· „œ—»</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Tahoma, sans-serif;
+      background: linear-gradient(to right, #654321, #b5651d); /* »‰Ì */
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .login-box {
+      background: #fff;
+      padding: 40px;
+      border-radius: 12px;
+      width: 320px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+    .login-box h2 {
+      margin-bottom: 25px;
+      color: brown;
+    }
+    .login-box input {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 15px;
+    }
+    .login-box button {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      background: brown;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: 0.3s;
+    }
+    .login-box button:hover {
+      background: #8b0000;
+    }
+    .login-box a {
+      display: block;
+      margin-top: 15px;
+      text-decoration: none;
+      color: #654321;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-box">
+    <h2> ”ÃÌ· œŒÊ· „œ—»</h2>
+    <form>
+      <input type="text" placeholder="«”„ «·„” Œœ„" required>
+      <input type="password" placeholder="ﬂ·„… «·„—Ê—" required>
+      <button type="submit">œŒÊ·</button>
+    </form>
+    <a href="index.html">«·⁄Êœ… ··’›Õ… «·—∆Ì”Ì…</a>
+  </div>
+</body>
+</html>
